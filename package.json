@@ -8,6 +8,10 @@
     "engines": {
         "vscode": "^1.23.0"
     },
+	  "repository": {
+		  "type": "git",
+		  "url": "https://github.com/false-schemers/vscode-scheme-r7rs"
+	  }, 
     "categories": [
         "Programming Languages"
     ],

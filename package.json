@@ -1,0 +1,31 @@
+{
+    "name": "scheme",
+    "displayName": "scheme-r7rs",
+    "description": "Colorizer for R7RS Scheme programming language (with extensions)",
+    "version": "0.0.1",
+    "publisher": "dermagen",
+    "icon": "images/lambda.png",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "scheme",
+                "aliases": [ "Scheme", "scheme" ],
+                "extensions": [ ".scm", ".ss", ".sch", ".rkt", ".sf" ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "scheme",
+                "scopeName": "source.scheme",
+                "path": "./syntaxes/scheme.tmLanguage"
+            }
+        ]
+    }
+}
